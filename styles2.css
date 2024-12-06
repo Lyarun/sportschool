@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Страница входа */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #6A5ACD;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFA07A;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.forgot-password {
+    text-align: center;
+    color: #888;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Страница записи на занятия */
+.signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    background-color: #ADD8E6;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.signup-header {
+    margin-bottom: 20px;
+}
+
+.signup-title {
+    background-color: #FFE4E1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.signup-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.signup-input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFDAB9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.signup-button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFA07A;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
